@@ -44,14 +44,17 @@ header .container p{
     font-size: 39px;
     text-transform: uppercase;
 }
-header .container .start{
+.container .start{
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 50px;
 }
-header .container .start b{
+.container .start b{
     font-weight: 700;
 }
-header .container button{
+.container .btn_form{
     border-radius: 20px;
+    padding: 10px 10px;
+    background: #fff;
+    margin-top:50px;
 }
