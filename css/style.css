@@ -103,6 +103,10 @@ header .container p{
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.timer-down{
+    margin-top: 40px;
     margin-left: 20px;
 }
