@@ -110,3 +110,20 @@ header .container p{
     margin-top: 40px;
     margin-left: 10px;
 }
+.about_ai{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.about_ai h1{
+    text-transform: uppercase;
+    color: #191D2C;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.about_ai p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: normal;
+}
