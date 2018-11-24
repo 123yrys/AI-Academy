@@ -24,6 +24,13 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./assets/js/particles.min.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+    <script>
+	particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+	  console.log('callback - particles.js config loaded');
+	});
+	</script>
     <script>
         $(document).ready(function(){
             $('.start').click(function(){
@@ -79,6 +86,8 @@
 
     <!-- Top content -->
     <div class="top-content">
+	<div id="particles-js"></div>
+
         <div class="top-content-text wow fadeInUp">
             <div class="header_logo" style="display: flex; justify-content: space-between;">
                 <img src="assets/css/images/it.png" style="width: 60px; height: 50px;" alt="">
@@ -164,10 +173,10 @@
                     <span class="start"></span>
                     <!-- <SlideShow> -->
                     <div >
-                        <img class="mySlides" src="assets/css/images/2.jpg" style="width:100%;height:100%;">
-                        <img class="mySlides slide" src="assets/css/images/1.jpg" style="width:100%;height:100%;">
-                        <img class="mySlides" src="assets/css/images/4.jpg" style="width:100%;height:100%;">
-                        <img class="mySlides" src="assets/css/images/3.jpg" style="width:100%;height:100%;">
+                        <img class="mySlides" src="assets/css/images/2.jpg" style="width:80%;height:100%;">
+                        <img class="mySlides slide" src="assets/css/images/1.jpg" style="width:80%;height:100%;">
+                        <img class="mySlides" src="assets/css/images/4.jpg" style="width:80%;height:100%;">
+                        <img class="mySlides" src="assets/css/images/3.jpg" style="width:80%;height:100%;">
                         <div id="slides"></div>
                     </div>
                 </section>
@@ -186,7 +195,6 @@
                     <h3>Аналитик с Python</h3>
                     <p>Пишет скрипт, который обрабатывает данные,
                         составляет отчет и отправляет его на почту руководителю. Процесс займет 2-3 часа.</p>
-                    <h3>В чем разница простого Digital - Mаркетологa от Mаркетологa с Python?</h3>
                     <h3>Digital - Mаркетолог</h3>
                     <p>Анализирует 50 страниц сайта, выискивая ключевые слова. Вручную пишет аудит - анализ.</p>
                     <h3>Маркетолог с Python</h3>
@@ -509,7 +517,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 team-box wow fadeInUp">
+                <div class="col-sm-6 team-box wow fadeInUp">
                     <div class="team-photo">
                         <img src="assets/img/about/1.jpg" alt="" data-at2x="assets/img/about/1.jpg">
                     </div>
@@ -528,7 +536,7 @@
                         <a href="#"><i class="fa fa-twitter"></i></a>
                     </div>
                 </div>
-                <div class="col-sm-4 team-box wow fadeInDown">
+                <div class="col-sm-6 team-box wow fadeInDown">
                     <div class="team-photo">
                         <img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg">
                     </div>
@@ -538,22 +546,6 @@
                         (включая участие в национальных и региональных проектах) и более 16 лет опыта преподавания
                         в университете.
                     </p>
-                    <div class="team-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="col-sm-4 team-box wow fadeInUp">
-                    <div class="team-photo">
-                        <img src="assets/img/about/3.jpg" alt="" data-at2x="assets/img/about/3.jpg">
-                    </div>
-                    <h3>Саша Акеев</h3>
-                    <p> получил степень бакалавра в Университете Фатиха в 2011 году и магистерскую степень
-                        того же Университета в 2013 году в области индустриальной инженерии.
-                        Он также проходит обучение PhD в данной области по направлению “Машинное обучение” в
-                        Университете Озйегин с 2013 года. Азамат проводил исследования в области больших данных в
-                        банковских и медицинских системах.</p>
                     <div class="team-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>

@@ -361,13 +361,13 @@ nav a:focus { color: #eee; outline: 0; }
 	height: 1100px;
 	padding-top: 30px;
 	padding-bottom: 15px;
-	max-width: 360px;
+	max-width: 350px;
 	background-color: #fff;
 	box-shadow: 0px 0px 20px #bbb;
 	display: inline-block;
 	min-height: 560px;
 	border-radius: 14px;
-	margin: 15px 10px;
+	margin: 15px 20px;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -692,13 +692,12 @@ footer {
 	margin: 10px 10px 20px;
 }
 .footer {
-	width: 165%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	background: linear-gradient(to right, #9CDFFF, #0356AB);
 	margin-top: 0px;
-	margin-left: -400px;
 	padding: 40px;
 	text-align: center;
 	font-size: 20px;
