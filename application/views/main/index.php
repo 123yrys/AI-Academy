@@ -252,7 +252,7 @@
         <div class="guarantee__career-item">
             <div class="career-item">
                 <div class="career__item-img">
-                    <img src="assets/css/images/machine-learning.png" alt="project">
+                    <img src="assets/css/images/cpp_java_python.png" alt="project">
                 </div>
                 <div class="career__title">- Программирование:</div>
                 <div class="career__post-title">
@@ -260,18 +260,18 @@
                     такие как Python, C / C ++, SQL или Java
                 </div>
             </div>
-            <div class="career-item">
+           <div class="career-item">
                 <div class="career__item-img">
-                    <img src="assets/css/images/data-mining.png" alt="work">
+                    <img src="assets/css/images/460px-Points_and_vectors.svg.png" alt="work">
                 </div>
                 <div class="career__title"> Многовариантное исчисление и линейная алгебра.</div>
                 <div class="career__post-title">
-
+					Основное многовариантное исчисление или вопросы линейной алгебры, поскольку они составляют основу многих этих методов.
                 </div>
             </div>
             <div class="career-item">
                 <div class="career__item-img">
-                    <img src="assets/css/images/big-data.png" alt="knowledge">
+                     <img src="assets/css/images/Standard_deviation_diagram.svg.png" alt="knowledge">
                 </div>
                 <div class="career__title">Статистика:</div>
                 <div class="career__post-title">
